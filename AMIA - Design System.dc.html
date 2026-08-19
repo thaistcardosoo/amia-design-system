@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #FBFAF7; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+  a { color: #EF5A3C; text-decoration: none; }
+  a:hover { color: #D94A2E; }
+  ::selection { background: #EF5A3C; color: #FFFFFF; }
+</style>
+</helmet>
+
+<div style="width:100%; background:#FFFFFF; color:#0E1420; font-family:'DM Sans',sans-serif;">
+
+<!-- ============ HERO ============ -->
+<section data-screen-label="Capa" style="max-width:1160px; margin:0 auto; padding:64px 56px 72px;">
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:56px;">
+    <div style="display:flex; align-items:center; gap:11px;">
+      <div style="width:40px; height:40px; border-radius:10px; background:#0E1420; display:flex; align-items:center; justify-content:center; font-family:'Instrument Serif',serif; font-style:italic; font-size:19px; color:#EF5A3C;">a</div>
+      <span style="font-size:12px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C;">AMIA</span>
+    </div>
+    <span style="font-size:12px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:rgba(14,20,32,0.5);">Design system · v1</span>
+  </div>
+
+  <div style="font-size:13px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C; margin-bottom:22px;">Academia do Marketing com IA</div>
+
+  <h1 style="font-family:'Instrument Serif',serif; font-style:italic; font-weight:400; font-size:82px; line-height:1.05; letter-spacing:-0.02em; color:#0E1420; max-width:900px;">Pare de <span style="color:#EF5A3C;">pedir coisas</span> pra IA. Comece a desenhar marketing com ela.</h1>
+
+  <p style="font-size:19px; line-height:1.75; max-width:560px; margin-top:26px; color:rgba(14,20,32,0.7);">
+    O sistema visual da AMIA: editorial, direto, sem tom de guru. Coral pra ação, preto pra autoridade, branco pra respirar.
+  </p>
+
+  <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:44px;">
+    <a href="#posicao" style="font-size:12px; font-weight:600; letter-spacing:0.04em; text-transform:uppercase; color:rgba(14,20,32,0.7); background:#FBFAF7; border:1px solid rgba(14,20,32,0.08); border-radius:999px; padding:9px 15px;">01 Posição</a>
+    <a href="#cor" style="font-size:12px; font-weight:600; letter-spacing:0.04em; text-transform:uppercase; color:rgba(14,20,32,0.7); background:#FBFAF7; border:1px solid rgba(14,20,32,0.08); border-radius:999px; padding:9px 15px;">02 Cor</a>
+    <a href="#tipo" style="font-size:12px; font-weight:600; letter-spacing:0.04em; text-transform:uppercase; color:rgba(14,20,32,0.7); background:#FBFAF7; border:1px solid rgba(14,20,32,0.08); border-radius:999px; padding:9px 15px;">03 Tipografia</a>
+    <a href="#layout" style="font-size:12px; font-weight:600; letter-spacing:0.04em; text-transform:uppercase; color:rgba(14,20,32,0.7); background:#FBFAF7; border:1px solid rgba(14,20,32,0.08); border-radius:999px; padding:9px 15px;">04 Layout</a>
+    <a href="#componentes" style="font-size:12px; font-weight:600; letter-spacing:0.04em; text-transform:uppercase; color:rgba(14,20,32,0.7); background:#FBFAF7; border:1px solid rgba(14,20,32,0.08); border-radius:999px; padding:9px 15px;">05 Componentes</a>
+    <a href="#slides" style="font-size:12px; font-weight:600; letter-spacing:0.04em; text-transform:uppercase; color:rgba(14,20,32,0.7); background:#FBFAF7; border:1px solid rgba(14,20,32,0.08); border-radius:999px; padding:9px 15px;">06 Slides</a>
+    <a href="#pecas" style="font-size:12px; font-weight:600; letter-spacing:0.04em; text-transform:uppercase; color:rgba(14,20,32,0.7); background:#FBFAF7; border:1px solid rgba(14,20,32,0.08); border-radius:999px; padding:9px 15px;">07 Peças</a>
+    <a href="#voz" style="font-size:12px; font-weight:600; letter-spacing:0.04em; text-transform:uppercase; color:rgba(14,20,32,0.7); background:#FBFAF7; border:1px solid rgba(14,20,32,0.08); border-radius:999px; padding:9px 15px;">08 Voz</a>
+    <a href="#kernel" style="font-size:12px; font-weight:600; letter-spacing:0.04em; text-transform:uppercase; color:rgba(14,20,32,0.7); background:#FBFAF7; border:1px solid rgba(14,20,32,0.08); border-radius:999px; padding:9px 15px;">09 Kernel IA</a>
+  </div>
+</section>
+
+<!-- ============ 01 POSIÇÃO ============ -->
+<section id="posicao" data-screen-label="Posicao" style="background:#0E1420; color:#FFFFFF;">
+  <div style="max-width:1160px; margin:0 auto; padding:80px 56px 84px;">
+    <div style="font-size:12px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C; margin-bottom:30px;">01 — Promessa & posição</div>
+
+    <div style="display:inline-flex; align-items:center; gap:8px; border:1px solid rgba(239,90,60,0.4); background:rgba(239,90,60,0.12); border-radius:999px; padding:7px 15px; margin-bottom:22px;">
+      <span style="font-size:11px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:#EF5A3C;">A promessa</span>
+    </div>
+    <p style="font-family:'Instrument Serif',serif; font-style:italic; font-size:44px; line-height:1.14; letter-spacing:-0.01em; max-width:900px;">Você entra <span style="color:#EF5A3C;">executando tarefas</span> com IA. Sai <span style="color:#EF5A3C;">desenhando processos</span> de marketing com IA.</p>
+    <p style="font-size:18px; line-height:1.75; color:rgba(255,255,255,0.75); max-width:620px; margin-top:22px;">Não é escola de ferramenta e não é "300 prompts mágicos". É formação de repertório, processo e aplicação — pra IA virar parte do jeito que você trabalha, não algo que você abre quando está sem ideia.</p>
+
+    <div style="height:1px; background:rgba(255,255,255,0.1); margin:48px 0 40px;"></div>
+
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-bottom:40px;">
+      <div style="border:1px solid rgba(255,255,255,0.12); border-radius:12px; padding:28px;">
+        <div style="font-size:11px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:rgba(255,255,255,0.5); margin-bottom:18px;">Antes</div>
+        <div style="display:flex; flex-direction:column; gap:11px;">
+          <div style="font-size:16px; line-height:1.5; color:rgba(255,255,255,0.7);">"Me dá uma legenda." · "Me dá ideias de post."</div>
+          <div style="font-size:16px; line-height:1.5; color:rgba(255,255,255,0.7);">Copia prompt que viu no Instagram.</div>
+          <div style="font-size:16px; line-height:1.5; color:rgba(255,255,255,0.7);">Pula de ferramenta em ferramenta.</div>
+          <div style="font-size:16px; line-height:1.5; color:rgba(255,255,255,0.7);">Depende de inspiração e improviso.</div>
+        </div>
+      </div>
+      <div style="border:2px solid #EF5A3C; border-radius:12px; padding:28px; background:rgba(239,90,60,0.06);">
+        <div style="font-size:11px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C; margin-bottom:18px;">Depois</div>
+        <div style="display:flex; flex-direction:column; gap:11px;">
+          <div style="font-size:16px; line-height:1.5; color:#FFFFFF;">"Vamos montar um fluxo de criação de conteúdo."</div>
+          <div style="font-size:16px; line-height:1.5; color:#FFFFFF;">Cria biblioteca adaptada ao próprio contexto.</div>
+          <div style="font-size:16px; line-height:1.5; color:#FFFFFF;">Escolhe ferramenta pelo problema, não pela hype.</div>
+          <div style="font-size:16px; line-height:1.5; color:#FFFFFF;">Tem processo que o time consegue seguir.</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="font-size:11px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C; margin-bottom:16px;">A prova — sai com ativos, não com certificado</div>
+    <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-bottom:40px;">
+      <div style="border:1px solid rgba(255,255,255,0.12); border-radius:12px; padding:20px;"><div style="font-size:15px; font-weight:600; color:#FFFFFF; margin-bottom:5px;">Sistema rodando</div><div style="font-size:14px; line-height:1.55; color:rgba(255,255,255,0.65);">Um fluxo real desenhado, testado e documentado.</div></div>
+      <div style="border:1px solid rgba(255,255,255,0.12); border-radius:12px; padding:20px;"><div style="font-size:15px; font-weight:600; color:#FFFFFF; margin-bottom:5px;">Playbook interno</div><div style="font-size:14px; line-height:1.55; color:rgba(255,255,255,0.65);">Onde usar IA, onde não usar, tom de voz, revisão.</div></div>
+      <div style="border:1px solid rgba(255,255,255,0.12); border-radius:12px; padding:20px;"><div style="font-size:15px; font-weight:600; color:#FFFFFF; margin-bottom:5px;">Horas devolvidas</div><div style="font-size:14px; line-height:1.55; color:rgba(255,255,255,0.65);">Antes × depois em tabela — chefia entende.</div></div>
+      <div style="border:1px solid rgba(255,255,255,0.12); border-radius:12px; padding:20px;"><div style="font-size:15px; font-weight:600; color:#FFFFFF; margin-bottom:5px;">Portfólio de fluxos</div><div style="font-size:14px; line-height:1.55; color:rgba(255,255,255,0.65);">3 a 5 aplicações práticas, não exercícios.</div></div>
+      <div style="border:1px solid rgba(255,255,255,0.12); border-radius:12px; padding:20px;"><div style="font-size:15px; font-weight:600; color:#FFFFFF; margin-bottom:5px;">Apresentação pronta</div><div style="font-size:14px; line-height:1.55; color:rgba(255,255,255,0.65);">"IA no marketing nos próximos 90 dias."</div></div>
+      <div style="border:1px solid rgba(255,255,255,0.12); border-radius:12px; padding:20px;"><div style="font-size:15px; font-weight:600; color:#FFFFFF; margin-bottom:5px;">Assistentes configurados</div><div style="font-size:14px; line-height:1.55; color:rgba(255,255,255,0.65);">Com instruções, base e exemplos de uso.</div></div>
+    </div>
+
+    <div style="height:1px; background:rgba(255,255,255,0.1); margin:0 0 40px;"></div>
+
+    <div style="display:grid; grid-template-columns:1.15fr 1fr; gap:52px; align-items:start; margin-bottom:40px;">
+      <div>
+        <p style="font-family:'Instrument Serif',serif; font-style:italic; font-size:32px; line-height:1.22;">"Há um mês atrás eu usava o ChatGPT pra melhorar texto — e achava que estava usando IA."</p>
+        <p style="font-size:14px; letter-spacing:0.08em; text-transform:uppercase; font-weight:600; color:#EF5A3C; margin-top:18px;">— aluna da AMIA</p>
+      </div>
+      <div style="padding-top:6px;">
+        <p style="font-size:18px; line-height:1.75; color:rgba(255,255,255,0.8);">O aluno já usa IA — às vezes mais que qualquer um na empresa. Mas usa no nível mais raso. <span style="font-weight:600; color:#FFFFFF;">O que trava é método.</span></p>
+        <p style="font-size:18px; line-height:1.75; color:rgba(255,255,255,0.8); margin-top:16px;">E por baixo tem um medo real: <em>"se qualquer estagiário com ChatGPT faz um post, o que me torna necessária?"</em></p>
+      </div>
+    </div>
+
+    <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:18px;">
+      <div style="border:1px solid rgba(255,255,255,0.12); border-radius:12px; padding:24px;">
+        <div style="font-size:11px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C; margin-bottom:10px;">O inimigo</div>
+        <div style="font-size:16px; line-height:1.6; color:rgba(255,255,255,0.85);">Curso raso de prompt solto — e o medo de virar dispensável.</div>
+      </div>
+      <div style="border:1px solid rgba(255,255,255,0.12); border-radius:12px; padding:24px;">
+        <div style="font-size:11px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C; margin-bottom:10px;">O Hub está dentro</div>
+        <div style="font-size:16px; line-height:1.6; color:rgba(255,255,255,0.85);">Hub de IA = organização e assistentes. AMIA = formação de marketing, e inclui o Hub.</div>
+      </div>
+      <div style="border:1px solid rgba(255,255,255,0.12); border-radius:12px; padding:24px;">
+        <div style="font-size:11px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C; margin-bottom:10px;">Nunca</div>
+        <div style="font-size:16px; line-height:1.6; color:rgba(255,255,255,0.85);">Prazo prometido (ainda não temos base), renda fácil, tom de guru.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 02 COR ============ -->
+<section id="cor" data-screen-label="Cor" style="max-width:1160px; margin:0 auto; padding:80px 56px;">
+  <div style="font-size:12px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C; margin-bottom:14px;">02 — Cor</div>
+  <h2 style="font-family:'Instrument Serif',serif; font-style:italic; font-size:46px; line-height:1.1; color:#0E1420; margin-bottom:14px;">Branco manda. Coral aponta.</h2>
+  <p style="font-size:17px; line-height:1.75; color:rgba(14,20,32,0.7); max-width:560px; margin-bottom:40px;">Base branca com faixas alternadas em off-white quente. Coral só onde há ação: CTA, setas, números, destaques. Vermelho escuro reservado para urgência real.</p>
+
+  <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-bottom:16px;">
+    <div style="border-radius:12px; overflow:hidden; border:1px solid rgba(14,20,32,0.08);"><div style="height:110px; background:#FFFFFF;"></div><div style="padding:14px; background:#FBFAF7;"><div style="font-weight:600; font-size:14px;">Branco</div><div style="font-size:12px; color:rgba(14,20,32,0.55);">#FFFFFF · fundo padrão</div></div></div>
+    <div style="border-radius:12px; overflow:hidden; border:1px solid rgba(14,20,32,0.08);"><div style="height:110px; background:#FBFAF7;"></div><div style="padding:14px; background:#FFFFFF;"><div style="font-weight:600; font-size:14px;">Off-white quente</div><div style="font-size:12px; color:rgba(14,20,32,0.55);">#FBFAF7 · faixa alternada</div></div></div>
+    <div style="border-radius:12px; overflow:hidden; border:1px solid rgba(14,20,32,0.08);"><div style="height:110px; background:#0E1420;"></div><div style="padding:14px; background:#FBFAF7;"><div style="font-weight:600; font-size:14px;">Quase-preto</div><div style="font-size:12px; color:rgba(14,20,32,0.55);">#0E1420 · texto & bloco forte</div></div></div>
+  </div>
+  <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-bottom:36px;">
+    <div style="border-radius:12px; overflow:hidden; border:1px solid rgba(14,20,32,0.08);"><div style="height:96px; background:#EF5A3C;"></div><div style="padding:14px; background:#FFFFFF;"><div style="font-weight:600; font-size:14px;">Coral ★</div><div style="font-size:12px; color:rgba(14,20,32,0.55);">#EF5A3C · acento & CTA</div></div></div>
+    <div style="border-radius:12px; overflow:hidden; border:1px solid rgba(14,20,32,0.08);"><div style="height:96px; background:#D94A2E;"></div><div style="padding:14px; background:#FFFFFF;"><div style="font-weight:600; font-size:14px;">Coral hover</div><div style="font-size:12px; color:rgba(14,20,32,0.55);">#D94A2E</div></div></div>
+    <div style="border-radius:12px; overflow:hidden; border:1px solid rgba(14,20,32,0.08);"><div style="height:96px; background:#D0301A;"></div><div style="padding:14px; background:#FFFFFF;"><div style="font-weight:600; font-size:14px;">Urgência</div><div style="font-size:12px; color:rgba(14,20,32,0.55);">#D0301A · escassez, oferta</div></div></div>
+  </div>
+
+  <div style="font-size:11px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:rgba(14,20,32,0.5); margin-bottom:14px;">Hierarquia de texto — opacidades sobre #0E1420</div>
+  <div style="border:1px solid rgba(14,20,32,0.08); border-radius:12px; padding:6px 22px; margin-bottom:16px;">
+    <div style="display:flex; justify-content:space-between; align-items:center; padding:12px 0; border-bottom:1px solid rgba(14,20,32,0.06);"><span style="font-size:16px; font-weight:600; color:#0E1420;">Título / ênfase</span><span style="font-size:12px; color:rgba(14,20,32,0.5);">100%</span></div>
+    <div style="display:flex; justify-content:space-between; align-items:center; padding:12px 0; border-bottom:1px solid rgba(14,20,32,0.06);"><span style="font-size:16px; color:rgba(14,20,32,0.85);">Corpo principal</span><span style="font-size:12px; color:rgba(14,20,32,0.5);">85%</span></div>
+    <div style="display:flex; justify-content:space-between; align-items:center; padding:12px 0; border-bottom:1px solid rgba(14,20,32,0.06);"><span style="font-size:16px; color:rgba(14,20,32,0.7);">Prosa longa</span><span style="font-size:12px; color:rgba(14,20,32,0.5);">70%</span></div>
+    <div style="display:flex; justify-content:space-between; align-items:center; padding:12px 0; border-bottom:1px solid rgba(14,20,32,0.06);"><span style="font-size:16px; color:rgba(14,20,32,0.6);">Legenda / meta</span><span style="font-size:12px; color:rgba(14,20,32,0.5);">60%</span></div>
+    <div style="display:flex; justify-content:space-between; align-items:center; padding:12px 0;"><span style="font-size:16px; color:rgba(14,20,32,0.5);">Desativado</span><span style="font-size:12px; color:rgba(14,20,32,0.5);">50%</span></div>
+  </div>
+  <p style="font-size:14px; line-height:1.7; color:rgba(14,20,32,0.6);">Bordas entre seções: <strong>1px rgba(14,20,32,0.06)</strong> (hairline). Cards ativos ganham borda coral 2px.</p>
+</section>
+
+<!-- ============ 03 TIPOGRAFIA ============ -->
+<section id="tipo" data-screen-label="Tipografia" style="background:#FBFAF7; border-top:1px solid rgba(14,20,32,0.06); border-bottom:1px solid rgba(14,20,32,0.06);">
+  <div style="max-width:1160px; margin:0 auto; padding:80px 56px;">
+    <div style="font-size:12px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C; margin-bottom:14px;">03 — Tipografia</div>
+    <h2 style="font-family:'Instrument Serif',serif; font-style:italic; font-size:46px; line-height:1.1; color:#0E1420; margin-bottom:36px;">Serifa itálica pra emoção. Sans pra clareza.</h2>
+
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-bottom:32px;">
+      <div style="background:#0E1420; border-radius:14px; padding:36px;">
+        <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:18px;"><span style="font-family:'Instrument Serif',serif; font-style:italic; font-size:22px; color:#FFFFFF;">Instrument Serif</span><span style="font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(255,255,255,0.5);">Títulos</span></div>
+        <div style="font-family:'Instrument Serif',serif; font-style:italic; font-size:96px; line-height:0.95; color:#FFFFFF;">Aa</div>
+        <p style="font-size:14px; line-height:1.7; color:rgba(255,255,255,0.7); margin-top:16px;">Sempre <strong>itálico</strong>. Títulos de seção, hero, frases de respiro. Leading 1.05, tracking tight.</p>
+      </div>
+      <div style="background:#FFFFFF; border:1px solid rgba(14,20,32,0.08); border-radius:14px; padding:36px;">
+        <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:18px;"><span style="font-weight:700; font-size:22px; color:#0E1420;">DM Sans</span><span style="font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(14,20,32,0.5);">Corpo · UI</span></div>
+        <div style="font-weight:700; font-size:96px; line-height:0.95; color:#0E1420; letter-spacing:-0.03em;">Aa</div>
+        <p style="font-size:14px; line-height:1.7; color:rgba(14,20,32,0.65); margin-top:16px;">400 pra prosa (leading 1.75), 500/600 pra UI e listas, 700 pra ênfase.</p>
+      </div>
+    </div>
+
+    <div style="border:1px solid rgba(14,20,32,0.08); border-radius:12px; background:#FFFFFF; padding:6px 24px;">
+      <div style="display:flex; align-items:baseline; gap:20px; padding:16px 0; border-bottom:1px solid rgba(14,20,32,0.06);"><span style="font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(14,20,32,0.5); min-width:170px;">Hero · 72px</span><span style="font-family:'Instrument Serif',serif; font-style:italic; font-size:42px; color:#0E1420;">Método na ordem certa</span></div>
+      <div style="display:flex; align-items:baseline; gap:20px; padding:16px 0; border-bottom:1px solid rgba(14,20,32,0.06);"><span style="font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(14,20,32,0.5); min-width:170px;">Seção · 60px</span><span style="font-family:'Instrument Serif',serif; font-style:italic; font-size:34px; color:#0E1420;">Como funciona</span></div>
+      <div style="display:flex; align-items:baseline; gap:20px; padding:16px 0; border-bottom:1px solid rgba(14,20,32,0.06);"><span style="font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(14,20,32,0.5); min-width:170px;">Eyebrow · 13px</span><span style="font-size:13px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C;">Módulo 02 · ao vivo</span></div>
+      <div style="display:flex; align-items:baseline; gap:20px; padding:16px 0; border-bottom:1px solid rgba(14,20,32,0.06);"><span style="font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(14,20,32,0.5); min-width:170px;">Prosa · 18px / 1.75</span><span style="font-size:18px; line-height:1.75; color:rgba(14,20,32,0.7); max-width:420px;">Texto de leitura em DM Sans 400, container estreito.</span></div>
+      <div style="display:flex; align-items:baseline; gap:20px; padding:16px 0;"><span style="font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(14,20,32,0.5); min-width:170px;">Contador</span><span style="display:flex; align-items:baseline; gap:8px;"><span style="font-family:'Instrument Serif',serif; font-style:italic; font-size:38px; color:#EF5A3C;">14</span><span style="font-size:11px; font-weight:600; letter-spacing:0.12em; text-transform:uppercase; color:rgba(14,20,32,0.6);">dias</span></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 04 LAYOUT ============ -->
+<section id="layout" data-screen-label="Layout" style="max-width:1160px; margin:0 auto; padding:80px 56px;">
+  <div style="font-size:12px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C; margin-bottom:14px;">04 — Layout & espaço</div>
+  <h2 style="font-family:'Instrument Serif',serif; font-style:italic; font-size:46px; line-height:1.1; color:#0E1420; margin-bottom:36px;">Coluna estreita, ritmo de leitura.</h2>
+
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px;">
+    <div style="border:1px solid rgba(14,20,32,0.08); border-radius:14px; padding:30px;">
+      <div style="font-size:11px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:rgba(14,20,32,0.5); margin-bottom:18px;">Container</div>
+      <div style="background:#FBFAF7; border-radius:10px; padding:20px; display:flex; justify-content:center;">
+        <div style="width:70%; background:#FFFFFF; border-left:2px solid #EF5A3C; border-right:2px solid #EF5A3C; padding:14px 16px; font-size:14px; line-height:1.7; color:rgba(14,20,32,0.7);">Leitura: max-width 520–640px, centralizado, padding lateral 24px.</div>
+      </div>
+      <div style="margin-top:18px; display:flex; flex-direction:column; gap:9px;">
+        <div style="display:flex; justify-content:space-between; font-size:14px;"><span style="color:rgba(14,20,32,0.7);">Prosa / leitura</span><span style="font-weight:600;">520–640px</span></div>
+        <div style="display:flex; justify-content:space-between; font-size:14px;"><span style="color:rgba(14,20,32,0.7);">Grid 2 col</span><span style="font-weight:600;">imagens, método</span></div>
+        <div style="display:flex; justify-content:space-between; font-size:14px;"><span style="color:rgba(14,20,32,0.7);">Grid 3 col</span><span style="font-weight:600;">prompts, lotes</span></div>
+      </div>
+    </div>
+    <div style="border:1px solid rgba(14,20,32,0.08); border-radius:14px; padding:30px;">
+      <div style="font-size:11px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:rgba(14,20,32,0.5); margin-bottom:18px;">Ritmo vertical</div>
+      <div style="display:flex; flex-direction:column;">
+        <div style="padding:16px 0; border-bottom:1px solid rgba(14,20,32,0.06); font-size:14px; color:rgba(14,20,32,0.7);">Seção — <strong style="color:#0E1420;">py 56px</strong> (mobile) / <strong style="color:#0E1420;">80px</strong> (desktop)</div>
+        <div style="padding:16px 0; border-bottom:1px solid rgba(14,20,32,0.06); font-size:14px; color:rgba(14,20,32,0.7);">Separador — hairline <strong style="color:#0E1420;">rgba(14,20,32,.06)</strong></div>
+        <div style="padding:16px 0; border-bottom:1px solid rgba(14,20,32,0.06); font-size:14px; color:rgba(14,20,32,0.7);">Faixas <strong style="color:#0E1420;">alternadas</strong>: branco → off-white → branco</div>
+        <div style="padding:16px 0; font-size:14px; color:rgba(14,20,32,0.7);">Raio: <strong style="color:#0E1420;">12px</strong> card · <strong style="color:#0E1420;">pill</strong> botão · <strong style="color:#0E1420;">10px</strong> chip</div>
+      </div>
+      <p style="font-size:13px; line-height:1.7; color:rgba(14,20,32,0.55); margin-top:16px;">Sem animação acima da dobra. Imagens com dimensão explícita; lazy abaixo da dobra.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 05 COMPONENTES ============ -->
+<section id="componentes" data-screen-label="Componentes" style="background:#FBFAF7; border-top:1px solid rgba(14,20,32,0.06); border-bottom:1px solid rgba(14,20,32,0.06);">
+  <div style="max-width:1160px; margin:0 auto; padding:80px 56px;">
+    <div style="font-size:12px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C; margin-bottom:14px;">05 — Componentes</div>
+    <h2 style="font-family:'Instrument Serif',serif; font-style:italic; font-size:46px; line-height:1.1; color:#0E1420; margin-bottom:36px;">As peças que se repetem.</h2>
+
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px;">
+
+      <div style="background:#FFFFFF; border:1px solid rgba(14,20,32,0.08); border-radius:14px; padding:30px;">
+        <div style="font-size:11px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:rgba(14,20,32,0.5); margin-bottom:18px;">Botões</div>
+        <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
+          <div style="background:#EF5A3C; color:#FFFFFF; font-weight:600; font-size:15px; height:52px; padding:0 30px; border-radius:999px; display:flex; align-items:center;">Quero entrar</div>
+          <div style="background:#0E1420; color:#FFFFFF; font-weight:600; font-size:15px; height:52px; padding:0 30px; border-radius:999px; display:flex; align-items:center;">Secundário</div>
+          <div style="background:transparent; color:#0E1420; font-weight:600; font-size:15px; height:52px; padding:0 30px; border-radius:999px; border:1px solid rgba(14,20,32,0.2); display:flex; align-items:center;">Contorno</div>
+          <div style="color:#EF5A3C; font-weight:600; font-size:15px; display:flex; align-items:center; gap:6px;">Ver o método <span>→</span></div>
+        </div>
+        <p style="font-size:13px; line-height:1.7; color:rgba(14,20,32,0.55); margin-top:16px;">Pill, altura 52–56px, coral sólido, <strong>sem sombra</strong>.</p>
+      </div>
+
+      <div style="background:#FFFFFF; border:1px solid rgba(14,20,32,0.08); border-radius:14px; padding:30px;">
+        <div style="font-size:11px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:rgba(14,20,32,0.5); margin-bottom:18px;">Badges & chips</div>
+        <div style="display:flex; gap:9px; flex-wrap:wrap; align-items:center;">
+          <span style="background:#EF5A3C; color:#FFFFFF; font-size:11px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; padding:6px 13px; border-radius:999px;">Turma 03</span>
+          <span style="background:rgba(14,20,32,0.6); color:#FFFFFF; font-size:11px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; padding:6px 13px; border-radius:999px;">Ao vivo</span>
+          <span style="background:#D0301A; color:#FFFFFF; font-size:11px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; padding:6px 13px; border-radius:999px;">Últimas vagas</span>
+          <span style="background:#FBFAF7; border:1px solid rgba(14,20,32,0.1); color:rgba(14,20,32,0.7); font-size:12px; font-weight:600; padding:6px 13px; border-radius:10px;">28 min</span>
+        </div>
+      </div>
+
+      <div style="background:#FFFFFF; border:1px solid rgba(14,20,32,0.08); border-radius:14px; padding:30px;">
+        <div style="font-size:11px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:rgba(14,20,32,0.5); margin-bottom:18px;">Card de preço · ativo</div>
+        <div style="border:2px solid #EF5A3C; border-radius:12px; padding:22px; box-shadow:0 10px 30px -12px rgba(239,90,60,0.35);">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:12px;">
+            <div style="font-weight:600; font-size:16px;">Turma completa</div>
+            <span style="background:#EF5A3C; color:#FFFFFF; font-size:10px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; padding:4px 10px; border-radius:999px;">Popular</span>
+          </div>
+          <div style="display:flex; align-items:baseline; gap:6px;"><span style="font-family:'Instrument Serif',serif; font-style:italic; font-size:40px; color:#0E1420;">R$ 1.497</span><span style="font-size:13px; color:rgba(14,20,32,0.6);">ou 12x</span></div>
+          <div style="height:1px; background:rgba(14,20,32,0.06); margin:16px 0;"></div>
+          <div style="display:flex; flex-direction:column; gap:8px; font-size:14px; color:rgba(14,20,32,0.75);">
+            <div style="display:flex; gap:9px;"><span style="color:#EF5A3C;">→</span>6 módulos + encontros ao vivo</div>
+            <div style="display:flex; gap:9px;"><span style="color:#EF5A3C;">→</span>Comunidade da turma</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background:#FFFFFF; border:1px solid rgba(14,20,32,0.08); border-radius:14px; padding:30px;">
+        <div style="font-size:11px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:rgba(14,20,32,0.5); margin-bottom:18px;">Banner de urgência · sticky</div>
+        <div style="background:#D0301A; color:#FFFFFF; border-radius:10px; padding:13px 18px; display:flex; justify-content:space-between; align-items:center; gap:14px;">
+          <span style="font-size:12px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase;">Turma 03 · inscrições até 12/08</span>
+          <span style="font-size:13px; font-weight:600; white-space:nowrap;">Garantir vaga →</span>
+        </div>
+        <div style="margin-top:16px; display:flex; gap:22px;">
+          <div><div style="font-family:'Instrument Serif',serif; font-style:italic; font-size:34px; color:#EF5A3C; line-height:1;">03</div><div style="font-size:10px; font-weight:600; letter-spacing:0.12em; text-transform:uppercase; color:rgba(14,20,32,0.6); margin-top:3px;">dias</div></div>
+          <div><div style="font-family:'Instrument Serif',serif; font-style:italic; font-size:34px; color:#EF5A3C; line-height:1;">14</div><div style="font-size:10px; font-weight:600; letter-spacing:0.12em; text-transform:uppercase; color:rgba(14,20,32,0.6); margin-top:3px;">horas</div></div>
+          <div><div style="font-family:'Instrument Serif',serif; font-style:italic; font-size:34px; color:#EF5A3C; line-height:1;">27</div><div style="font-size:10px; font-weight:600; letter-spacing:0.12em; text-transform:uppercase; color:rgba(14,20,32,0.6); margin-top:3px;">min</div></div>
+        </div>
+      </div>
+
+      <div style="background:#FFFFFF; border:1px solid rgba(14,20,32,0.08); border-radius:14px; padding:30px;">
+        <div style="font-size:11px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:rgba(14,20,32,0.5); margin-bottom:18px;">Item de módulo</div>
+        <div style="display:flex; flex-direction:column;">
+          <div style="display:flex; gap:16px; align-items:center; padding:14px 0; border-bottom:1px solid rgba(14,20,32,0.06);">
+            <span style="font-family:'Instrument Serif',serif; font-style:italic; font-size:26px; color:#EF5A3C; min-width:32px;">01</span>
+            <div style="flex:1;"><div style="font-weight:600; font-size:15px;">Diagnóstico: onde você perde tempo</div><div style="font-size:13px; color:rgba(14,20,32,0.6);">4 aulas · 42 min</div></div>
+            <span style="color:rgba(14,20,32,0.3);">→</span>
+          </div>
+          <div style="display:flex; gap:16px; align-items:center; padding:14px 0;">
+            <span style="font-family:'Instrument Serif',serif; font-style:italic; font-size:26px; color:#EF5A3C; min-width:32px;">02</span>
+            <div style="flex:1;"><div style="font-weight:600; font-size:15px;">O acervo que trabalha por você</div><div style="font-size:13px; color:rgba(14,20,32,0.6);">5 aulas · 58 min</div></div>
+            <span style="color:rgba(14,20,32,0.3);">→</span>
+          </div>
+        </div>
+      </div>
+
+      <div style="background:#FFFFFF; border:1px solid rgba(14,20,32,0.08); border-radius:14px; padding:30px;">
+        <div style="font-size:11px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:rgba(14,20,32,0.5); margin-bottom:18px;">Depoimento & callout</div>
+        <div style="border-left:2px solid #EF5A3C; padding-left:16px; margin-bottom:18px;">
+          <p style="font-family:'Instrument Serif',serif; font-style:italic; font-size:19px; line-height:1.45; color:#0E1420;">"Parei de recomeçar do zero toda segunda."</p>
+          <div style="font-size:12px; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:rgba(14,20,32,0.55); margin-top:9px;">Ana · analista de marketing</div>
+        </div>
+        <div style="background:#FBFAF7; border:1px solid rgba(14,20,32,0.08); border-radius:10px; padding:14px 16px;">
+          <div style="font-size:10px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C; margin-bottom:5px;">Na prática</div>
+          <div style="font-size:14px; line-height:1.6; color:rgba(14,20,32,0.75);">Cada aula termina com uma coisa pra aplicar hoje.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ 06 SLIDES ============ -->
+<section id="slides" data-screen-label="Slides" style="max-width:1160px; margin:0 auto; padding:80px 56px;">
+  <div style="font-size:12px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C; margin-bottom:14px;">06 — Slides de aula · 1920×1080</div>
+  <h2 style="font-family:'Instrument Serif',serif; font-style:italic; font-size:46px; line-height:1.1; color:#0E1420; margin-bottom:14px;">Seis moldes pras aulas.</h2>
+  <p style="font-size:17px; line-height:1.75; color:rgba(14,20,32,0.7); max-width:560px; margin-bottom:12px;">Margem 96px, texto nunca abaixo de 28px. Ritmo: capa → agenda → conteúdo → respiro → aplicar hoje.</p>
+  <p style="font-size:13px; font-weight:500; color:rgba(14,20,32,0.55); max-width:560px; margin-bottom:36px;">Os moldes abaixo são proporcionais a 960×540 — metade de 1920×1080 — e escalam com a largura da tela. Pra chegar no tamanho final, dobre todo valor (margem 48→96px, corpo 16→32px).</p>
+
+  <div style="display:flex; flex-direction:column; gap:26px;">
+
+    <div>
+      <div style="width:100%; max-width:960px; container-type:inline-size;">
+        <div id="amia-s1" style="aspect-ratio:16/9; border-radius:1.46cqw; overflow:hidden; background:#0E1420; padding:5cqw; display:flex; flex-direction:column;">
+          <div style="flex:1; display:flex; flex-direction:column; justify-content:center;">
+            <span style="font-size:1.15cqw; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C; margin-bottom:1.67cqw;">Módulo 02 · Aula 03</span>
+            <div style="font-family:'Instrument Serif',serif; font-style:italic; font-size:6.25cqw; line-height:1.06; color:#FFFFFF; max-width:68.75cqw;">O acervo que trabalha por você</div>
+          </div>
+          <div style="display:flex; align-items:center; gap:0.94cqw;">
+            <div style="width:2.71cqw; height:2.71cqw; border-radius:0.73cqw; background:#EF5A3C; display:flex; align-items:center; justify-content:center; font-family:'Instrument Serif',serif; font-style:italic; font-size:1.35cqw; color:#FFFFFF;">a</div>
+            <span style="font-size:1.04cqw; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:rgba(255,255,255,0.5);">AMIA</span>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top:9px; font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(14,20,32,0.5);">1 · Capa de aula</div>
+    </div>
+
+    <div>
+      <div style="width:100%; max-width:960px; container-type:inline-size;">
+        <div id="amia-s2" style="aspect-ratio:16/9; border-radius:1.46cqw; overflow:hidden; background:#FFFFFF; border:1px solid rgba(14,20,32,0.1); padding:5cqw; display:flex; flex-direction:column; justify-content:center;">
+          <span style="font-size:1.15cqw; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C; margin-bottom:2.08cqw;">Nesta aula</span>
+          <div style="display:flex; flex-direction:column;">
+            <div style="display:flex; gap:1.67cqw; align-items:center; padding:1.67cqw 0; border-bottom:1px solid rgba(14,20,32,0.06);"><span style="font-family:'Instrument Serif',serif; font-style:italic; font-size:2.92cqw; color:#EF5A3C; min-width:3.75cqw;">01</span><span style="font-weight:500; font-size:2.29cqw;">Por que o prompt bom desaparece</span></div>
+            <div style="display:flex; gap:1.67cqw; align-items:center; padding:1.67cqw 0; border-bottom:1px solid rgba(14,20,32,0.06);"><span style="font-family:'Instrument Serif',serif; font-style:italic; font-size:2.92cqw; color:#EF5A3C; min-width:3.75cqw;">02</span><span style="font-weight:500; font-size:2.29cqw;">Como nomear pra achar depois</span></div>
+            <div style="display:flex; gap:1.67cqw; align-items:center; padding:1.67cqw 0;"><span style="font-family:'Instrument Serif',serif; font-style:italic; font-size:2.92cqw; color:#EF5A3C; min-width:3.75cqw;">03</span><span style="font-weight:500; font-size:2.29cqw;">O ritual de 10 minutos</span></div>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top:9px; font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(14,20,32,0.5);">2 · Agenda</div>
+    </div>
+
+    <div>
+      <div style="width:100%; max-width:960px; container-type:inline-size;">
+        <div id="amia-s3" style="aspect-ratio:16/9; border-radius:1.46cqw; overflow:hidden; background:#FBFAF7; padding:5cqw; display:flex; flex-direction:column; justify-content:center;">
+          <div style="font-family:'Instrument Serif',serif; font-style:italic; font-size:4.58cqw; line-height:1.12; color:#0E1420; margin-bottom:2.92cqw;">3 passos pra montar o acervo</div>
+          <div style="display:flex; flex-direction:column; gap:1.67cqw;">
+            <div style="display:flex; gap:1.46cqw; align-items:baseline;"><span style="color:#EF5A3C; font-weight:700; font-size:2.08cqw;">→</span><span style="font-size:2.29cqw; font-weight:500; color:rgba(14,20,32,0.85);">Capture o que já funcionou</span></div>
+            <div style="display:flex; gap:1.46cqw; align-items:baseline;"><span style="color:#EF5A3C; font-weight:700; font-size:2.08cqw;">→</span><span style="font-size:2.29cqw; font-weight:500; color:rgba(14,20,32,0.85);">Nomeie pelo problema, não pela ferramenta</span></div>
+            <div style="display:flex; gap:1.46cqw; align-items:baseline;"><span style="color:#EF5A3C; font-weight:700; font-size:2.08cqw;">→</span><span style="font-size:2.29cqw; font-weight:500; color:rgba(14,20,32,0.85);">Revise 10 min por semana</span></div>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top:9px; font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(14,20,32,0.5);">3 · Passo a passo</div>
+    </div>
+
+    <div>
+      <div style="width:100%; max-width:960px; container-type:inline-size;">
+        <div id="amia-s4" style="aspect-ratio:16/9; border-radius:1.46cqw; overflow:hidden; background:#EF5A3C; padding:5cqw; display:flex; flex-direction:column; justify-content:center;">
+          <div style="font-family:'Instrument Serif',serif; font-style:italic; font-size:5.42cqw; line-height:1.14; color:#FFFFFF; max-width:75cqw;">Você não precisa de mais uma ferramenta. Precisa de ordem.</div>
+        </div>
+      </div>
+      <div style="margin-top:9px; font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(14,20,32,0.5);">4 · Respiro / frase</div>
+    </div>
+
+    <div>
+      <div style="width:100%; max-width:960px; container-type:inline-size;">
+        <div id="amia-s5" style="aspect-ratio:16/9; border-radius:1.46cqw; overflow:hidden; background:#FFFFFF; border:1px solid rgba(14,20,32,0.1); padding:5cqw; display:flex; gap:3.75cqw; align-items:center;">
+          <div style="flex:1;">
+            <div style="font-size:1.15cqw; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C; margin-bottom:1.46cqw;">Na prática</div>
+            <div style="font-family:'Instrument Serif',serif; font-style:italic; font-size:3.96cqw; line-height:1.14; color:#0E1420; margin-bottom:1.46cqw;">O prompt base</div>
+            <p style="font-size:1.77cqw; line-height:1.65; color:rgba(14,20,32,0.7);">Print ou trecho ao lado da explicação.</p>
+          </div>
+          <div style="flex:1.05; background:#0E1420; border-radius:1.25cqw; padding:2.71cqw; font-size:1.67cqw; line-height:1.8; color:rgba(255,255,255,0.85);">Contexto: minha empresa vende…<br>Voz: direta, sem jargão.<br>Tarefa: 5 títulos.</div>
+        </div>
+      </div>
+      <div style="margin-top:9px; font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(14,20,32,0.5);">5 · Print / prompt</div>
+    </div>
+
+    <div>
+      <div style="width:100%; max-width:960px; container-type:inline-size;">
+        <div id="amia-s6" style="aspect-ratio:16/9; border-radius:1.46cqw; overflow:hidden; background:#0E1420; padding:5cqw; display:flex; flex-direction:column; justify-content:center;">
+          <span style="font-size:1.15cqw; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C; margin-bottom:1.875cqw;">Aplicar hoje</span>
+          <div style="font-family:'Instrument Serif',serif; font-style:italic; font-size:4.58cqw; line-height:1.16; color:#FFFFFF; margin-bottom:2.92cqw; max-width:66.67cqw;">Salve 3 prompts que você já usou esta semana.</div>
+          <div style="display:inline-flex; align-self:flex-start; background:#EF5A3C; color:#FFFFFF; font-weight:600; font-size:1.77cqw; padding:1.46cqw 3.13cqw; border-radius:999px;">Fazer agora</div>
+        </div>
+      </div>
+      <div style="margin-top:9px; font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(14,20,32,0.5);">6 · Tarefa / fechamento</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ 07 PEÇAS ============ -->
+<section id="pecas" data-screen-label="Pecas" style="background:#FBFAF7; border-top:1px solid rgba(14,20,32,0.06); border-bottom:1px solid rgba(14,20,32,0.06);">
+  <div style="max-width:1160px; margin:0 auto; padding:80px 56px;">
+    <div style="font-size:12px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C; margin-bottom:14px;">07 — Outras peças</div>
+    <h2 style="font-family:'Instrument Serif',serif; font-style:italic; font-size:46px; line-height:1.1; color:#0E1420; margin-bottom:36px;">Carrossel, certificado, email.</h2>
+
+    <div style="display:flex; gap:22px; flex-wrap:wrap; align-items:flex-start;">
+
+      <div>
+        <div id="amia-c1" style="width:260px; height:325px; border-radius:14px; overflow:hidden; background:#FFFFFF; border:1px solid rgba(14,20,32,0.1); padding:28px; display:flex; flex-direction:column; justify-content:center;">
+          <span style="font-size:10px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C; margin-bottom:14px;">AMIA</span>
+          <div style="font-family:'Instrument Serif',serif; font-style:italic; font-size:34px; line-height:1.08; color:#0E1420;">Você salva 140 e aplica 5.</div>
+          <div style="font-size:13px; font-weight:500; color:rgba(14,20,32,0.6); margin-top:14px;">o problema não é conteúdo →</div>
+        </div>
+        <div style="margin-top:9px; font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(14,20,32,0.5); text-align:center;">Carrossel · capa</div>
+      </div>
+
+      <div>
+        <div id="amia-c2" style="width:260px; height:325px; border-radius:14px; overflow:hidden; background:#0E1420; padding:28px; display:flex; flex-direction:column; justify-content:center;">
+          <div style="font-family:'Instrument Serif',serif; font-style:italic; font-size:60px; line-height:1; color:#EF5A3C;">02</div>
+          <div style="font-weight:600; font-size:19px; line-height:1.3; color:#FFFFFF; margin-top:14px;">Nomeie pelo problema, não pela ferramenta</div>
+          <p style="font-size:13px; line-height:1.65; color:rgba(255,255,255,0.7); margin-top:12px;">"post de lançamento" acha. "prompt gpt 3" não.</p>
+        </div>
+        <div style="margin-top:9px; font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(14,20,32,0.5); text-align:center;">Carrossel · miolo</div>
+      </div>
+
+      <div>
+        <div id="amia-c3" style="width:420px; height:296px; border-radius:14px; overflow:hidden; background:#FFFFFF; border:1px solid rgba(14,20,32,0.1); padding:32px; display:flex; flex-direction:column; text-align:center; align-items:center; justify-content:center; position:relative;">
+          <div style="position:absolute; top:0; left:0; right:0; height:5px; background:#EF5A3C;"></div>
+          <span style="font-size:10px; font-weight:700; letter-spacing:0.16em; text-transform:uppercase; color:#EF5A3C;">Certificado de conclusão</span>
+          <div style="font-family:'Instrument Serif',serif; font-style:italic; font-size:30px; line-height:1.15; color:#0E1420; margin-top:14px;">Ana Souza</div>
+          <div style="width:44px; height:1px; background:rgba(14,20,32,0.15); margin:14px 0;"></div>
+          <p style="font-size:13px; line-height:1.65; color:rgba(14,20,32,0.7); max-width:280px;">concluiu a <strong>Academia do Marketing com IA</strong> — Turma 03, 6 módulos.</p>
+          <div style="display:flex; align-items:center; gap:8px; margin-top:18px;">
+            <div style="width:22px; height:22px; border-radius:6px; background:#0E1420; display:flex; align-items:center; justify-content:center; font-family:'Instrument Serif',serif; font-style:italic; font-size:11px; color:#EF5A3C;">a</div>
+            <span style="font-size:9px; font-weight:600; letter-spacing:0.12em; text-transform:uppercase; color:rgba(14,20,32,0.5);">Thaís Maia · jul 2026</span>
+          </div>
+        </div>
+        <div style="margin-top:9px; font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(14,20,32,0.5); text-align:center;">Certificado</div>
+      </div>
+
+      <div>
+        <div id="amia-c4" style="width:340px; border-radius:14px; overflow:hidden; background:#FFFFFF; border:1px solid rgba(14,20,32,0.1);">
+          <div style="background:#0E1420; padding:16px 22px; display:flex; align-items:center; gap:9px;">
+            <div style="width:22px; height:22px; border-radius:6px; background:#EF5A3C; display:flex; align-items:center; justify-content:center; font-family:'Instrument Serif',serif; font-style:italic; font-size:11px; color:#FFFFFF;">a</div>
+            <span style="font-size:10px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:rgba(255,255,255,0.7);">AMIA · Turma 03</span>
+          </div>
+          <div style="padding:24px 22px;">
+            <div style="font-size:10px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C; margin-bottom:9px;">Semana 2</div>
+            <div style="font-family:'Instrument Serif',serif; font-style:italic; font-size:24px; line-height:1.15; color:#0E1420;">Seu encontro ao vivo é quinta, 20h</div>
+            <p style="font-size:14px; line-height:1.7; color:rgba(14,20,32,0.7); margin-top:12px;">Traga um prompt que você usa toda semana. Vamos transformar em template na hora.</p>
+            <div style="background:#EF5A3C; color:#FFFFFF; font-weight:600; font-size:14px; padding:12px 0; border-radius:999px; text-align:center; margin-top:18px;">Entrar na sala</div>
+            <div style="font-size:11px; color:rgba(14,20,32,0.5); margin-top:16px; padding-top:14px; border-top:1px solid rgba(14,20,32,0.06);">Academia do Marketing com IA · uma iniciativa de Thaís Maia</div>
+          </div>
+        </div>
+        <div style="margin-top:9px; font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(14,20,32,0.5); text-align:center;">Email da turma</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ 08 VOZ ============ -->
+<section id="voz" data-screen-label="Voz" style="max-width:1160px; margin:0 auto; padding:80px 56px;">
+  <div style="font-size:12px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C; margin-bottom:14px;">08 — Voz</div>
+  <h2 style="font-family:'Instrument Serif',serif; font-style:italic; font-size:46px; line-height:1.1; color:#0E1420; margin-bottom:36px;">Quem já viveu a mesma coisa.</h2>
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px;">
+    <div style="border:1px solid rgba(14,20,32,0.08); border-radius:14px; padding:30px;">
+      <div style="font-size:12px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#0E1420; margin-bottom:16px;">✓ Faça</div>
+      <ul style="list-style:none; display:flex; flex-direction:column; gap:11px;">
+        <li style="font-size:15px; line-height:1.65; color:rgba(14,20,32,0.8); padding-left:20px; position:relative;"><span style="position:absolute; left:0; color:#EF5A3C;">→</span>Assuma que a pessoa já usa IA — vá direto ao método.</li>
+        <li style="font-size:15px; line-height:1.65; color:rgba(14,20,32,0.8); padding-left:20px; position:relative;"><span style="position:absolute; left:0; color:#EF5A3C;">→</span>Nomeie a dor com as palavras dela ("salvo 140, aplico 5").</li>
+        <li style="font-size:15px; line-height:1.65; color:rgba(14,20,32,0.8); padding-left:20px; position:relative;"><span style="position:absolute; left:0; color:#EF5A3C;">→</span>Fale de ordem, sequência, "na ordem certa".</li>
+        <li style="font-size:15px; line-height:1.65; color:rgba(14,20,32,0.8); padding-left:20px; position:relative;"><span style="position:absolute; left:0; color:#EF5A3C;">→</span>Termine tudo com uma coisa pra aplicar hoje.</li>
+        <li style="font-size:15px; line-height:1.65; color:rgba(14,20,32,0.8); padding-left:20px; position:relative;"><span style="position:absolute; left:0; color:#EF5A3C;">→</span>Coral só onde há ação. Uma cor forte por peça.</li>
+      </ul>
+    </div>
+    <div style="border:1px solid rgba(14,20,32,0.08); border-radius:14px; padding:30px;">
+      <div style="font-size:12px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#D0301A; margin-bottom:16px;">✕ Evite</div>
+      <ul style="list-style:none; display:flex; flex-direction:column; gap:11px;">
+        <li style="font-size:15px; line-height:1.65; color:rgba(14,20,32,0.8); padding-left:20px; position:relative;"><span style="position:absolute; left:0; color:#D0301A;">×</span>"Aprenda IA do zero", "domine a IA", renda fácil.</li>
+        <li style="font-size:15px; line-height:1.65; color:rgba(14,20,32,0.8); padding-left:20px; position:relative;"><span style="position:absolute; left:0; color:#D0301A;">×</span>Tom de guru, promessa de transformação mágica.</li>
+        <li style="font-size:15px; line-height:1.65; color:rgba(14,20,32,0.8); padding-left:20px; position:relative;"><span style="position:absolute; left:0; color:#D0301A;">×</span>Verde da marca-mãe, rosa do Segundo Cérebro, lima.</li>
+        <li style="font-size:15px; line-height:1.65; color:rgba(14,20,32,0.8); padding-left:20px; position:relative;"><span style="position:absolute; left:0; color:#D0301A;">×</span>Sombra em botão, animação acima da dobra.</li>
+        <li style="font-size:15px; line-height:1.65; color:rgba(14,20,32,0.8); padding-left:20px; position:relative;"><span style="position:absolute; left:0; color:#D0301A;">×</span>Urgência falsa — vermelho escuro só com prazo real.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 09 KERNEL ============ -->
+<section id="kernel" data-screen-label="Kernel IA" style="background:#FBFAF7; border-top:1px solid rgba(14,20,32,0.06);">
+  <div style="max-width:1160px; margin:0 auto; padding:80px 56px 92px;">
+    <div style="font-size:12px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:#EF5A3C; margin-bottom:14px;">09 — Kernel para IA</div>
+    <h2 style="font-family:'Instrument Serif',serif; font-style:italic; font-size:46px; line-height:1.1; color:#0E1420; margin-bottom:14px;">A AMIA em um prompt.</h2>
+    <p style="font-size:17px; line-height:1.75; color:rgba(14,20,32,0.7); max-width:560px; margin-bottom:32px;">Cole antes de pedir qualquer peça desta submarca.</p>
+    <div style="background:#0E1420; border-radius:14px; padding:34px; max-width:960px;">
+      <div id="amia-kernel" style="font-size:13px; line-height:1.95; color:rgba(255,255,255,0.85); white-space:pre-line; font-family:'DM Sans',monospace;">SUBMARCA: AMIA — Academia do Marketing com IA, curso + comunidade de Thaís Maia. PT-BR. Assinatura da Thaís discreta só no rodapé.
+        PROMESSA: você entra executando tarefas com IA e sai desenhando processos de marketing com IA. Não é escola de ferramenta nem "300 prompts mágicos" — é repertório, processo e aplicação. Marketing potencializado por IA, não IA pela IA.
+        TRANSFORMAÇÃO: de operadora de prompts a arquiteta de processos. Antes: "me dá uma legenda", copia prompt do Instagram, pula de ferramenta. Depois: monta fluxo de conteúdo/campanha, cria biblioteca própria, escolhe ferramenta pelo problema, tem processo que o time segue.
+        PROVA (usar sempre — é o diferencial): sai com ATIVOS, não certificado. Sistema/fluxo rodando · playbook interno de IA · horas devolvidas (antes × depois) · portfólio de 3–5 fluxos · apresentação "IA no marketing em 90 dias" · assistentes configurados · biblioteca de prompts do próprio contexto.
+        ALUNO: já usa IA todo dia (não é iniciante, não precisa ser convencido) mas no nível mais raso. Trava no método. Frase real de aluna: "há um mês eu usava o ChatGPT pra melhorar texto e achava que estava usando IA." Medo por baixo: "se um estagiário com ChatGPT faz um post, o que me torna necessária?"
+        INIMIGO: curso raso que ensina prompt solto + o medo de virar dispensável.
+        ARQUITETURA: o Hub de IA (Segundo Cérebro) é organização/assistentes no Notion e está DENTRO da AMIA. AMIA é a formação de marketing.
+        ESTRUTURA: híbrida — conteúdo aberto + encontros ao vivo, organizada em turmas (Turma 03). Fase inicial: NÃO prometer prazo nem número de alunos.
+        TOM: turma/comunidade + carreira. Como quem viveu a mesma coisa e tem um caminho na ordem certa. PROIBIDO: "aprenda IA do zero", "domine a IA", renda fácil, tom de guru, promessa mágica, prazo inventado.
+        COR: branco #FFFFFF (fundo) · off-white quente #FBFAF7 (faixa alternada) · quase-preto #0E1420 (texto e bloco forte) · coral #EF5A3C (acento, CTA, setas →, números) · hover #D94A2E · vermelho #D0301A (só urgência com prazo real). Hierarquia por opacidade do #0E1420: 100/85/70/60/50. Bordas hairline rgba(14,20,32,0.06). NADA de verde (marca-mãe), rosa (Segundo Cérebro) ou lima.
+        TIPOGRAFIA: títulos Instrument Serif SEMPRE itálico (leading 1.05, tracking tight); corpo DM Sans 400 (leading 1.75), UI 500/600; eyebrow uppercase 13px semibold tracking 0.14em em coral; contadores = número em serif itálico + label micro uppercase.
+        LAYOUT: coluna de leitura 520–640px centralizada, padding lateral 24px. Seções py 56–80px separadas por hairline, faixas alternando branco/off-white. Grid 2 col em imagem/método, 3 col em prompts/lotes.
+        COMPONENTES: CTA pill h52-56 coral sólido SEM sombra. Card de preço raio 12px, ativo = borda coral 2px + shadow 0 10px 30px -12px rgba(239,90,60,.35). Badge pill 11px uppercase bold. Sem animação acima da dobra.
+        SLIDE 1920×1080: margem 96px, texto nunca abaixo de 28px. Layouts: capa · agenda · passo a passo · respiro (bloco coral) · print/prompt · aplicar hoje.
+        ASSINATURA: monograma "a" em serif itálico dentro de quadrado arredondado (preto com "a" coral, ou coral com "a" branca).</div>
+      <div onClick="{{ copyKernel }}" style="cursor:pointer; display:inline-flex; align-items:center; gap:8px; background:#EF5A3C; color:#FFFFFF; font-weight:600; font-size:14px; padding:13px 26px; border-radius:999px; margin-top:22px;">{{ kernelBtnLabel }}</div>
+    </div>
+
+    <div style="height:1px; background:rgba(14,20,32,0.08); margin:52px 0 28px;"></div>
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:14px;">
+      <span style="font-family:'Instrument Serif',serif; font-style:italic; font-size:24px; color:#0E1420;">Academia do Marketing com <span style="color:#EF5A3C;">IA</span></span>
+      <span style="font-size:11px; font-weight:600; letter-spacing:0.12em; text-transform:uppercase; color:rgba(14,20,32,0.5);">Design system · v1 · 2026</span>
+    </div>
+  </div>
+</section>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;: {&quot;width&quot;: 1240, &quot;height&quot;: 900}}">
+class Component extends DCLogic {
+  state = { copied: false };
+  renderVals() {
+    return {
+      copyKernel: () => {
+        const el = document.getElementById('amia-kernel');
+        if (el && navigator.clipboard) {
+          navigator.clipboard.writeText(el.innerText).then(() => {
+            this.setState({ copied: true });
+            setTimeout(() => this.setState({ copied: false }), 2000);
+          });
+        }
+      },
+      kernelBtnLabel: this.state.copied ? 'copiado ✓' : 'copiar kernel',
+    };
+  }
+}
+</script>
+</body>
+</html>
